@@ -65,6 +65,15 @@ Instructions (read before editing):
     @media (max-width:900px){
       .hero{grid-template-columns:1fr;gap:28px}
       .hero-card img{height:260px}
+      @media (max-width:640px){
+  .video-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .video-container video {
+    width: 100%;
+  }
+}
     }
 
     /* Modal product detail */
@@ -167,10 +176,7 @@ Instructions (read before editing):
           <img src="images/Shop.jpg" alt="Workshop in Croatia" style="width:100%;border-radius:12px;object-fit:cover;display:block">
         </div>
       </div>
-
-      <style>
- gap: 20px
-} </style>
+      
     <video class="hero-video" width="50%" autoplay muted loop playsinline>
   <source src="videos/promo.mp4.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -267,6 +273,7 @@ Instructions (read before editing):
   </script>
 </body>
 </html>
+
 
 
 
